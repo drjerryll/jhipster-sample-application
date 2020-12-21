@@ -1,0 +1,8 @@
+
+entity Consumer {
+	id Long,
+    creationDate ZonedDateTime,
+    updateDate ZonedDateTime,
+    procedura String,
+    enabled Boolean
+}
