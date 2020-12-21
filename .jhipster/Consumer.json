@@ -1,0 +1,34 @@
+{
+  "name": "Consumer",
+  "fields": [
+    {
+      "fieldName": "creationDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "procedura",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "enabled",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201221115210",
+  "entityTableName": "consumer",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "jhipsterSampleApplication",
+  "applications": "*",
+  "microserviceName": "jhipsterSampleApplication"
+}
